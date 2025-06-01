@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "minimal-server": {
+      "command": "python",
+      "args": ["/home/hinaser/projects/mcp-sample/minimal_server.py"],
+      "env": {}
+    },
+    "bare-minimum": {
+      "command": "python",
+      "args": ["/home/hinaser/projects/mcp-sample/bare_minimum.py"]
+    },
+    "advanced-task-manager": {
+      "command": "python",
+      "args": ["/home/hinaser/projects/mcp-sample/advanced_server.py"],
+      "env": {
+        "LOG_LEVEL": "INFO"
+      }
+    },
+    "transport-example-sse": {
+      "command": "python",
+      "args": [
+        "/home/hinaser/projects/mcp-sample/server_with_transports.py",
+        "--transport",
+        "sse",
+        "--port",
+        "8001"
+      ]
+    }
+  }
+}
