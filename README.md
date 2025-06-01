@@ -4,13 +4,20 @@ A simple Model Context Protocol (MCP) server that echoes input back as-is.
 
 ## Installation
 
+Using pip:
 ```bash
 pip install -e .
+```
+
+Using uv:
+```bash
+uv pip install -e .
 ```
 
 ## Usage
 
 ### Running directly
+
 ```bash
 python src/echo_server.py
 ```
@@ -36,7 +43,7 @@ Add to your Claude Desktop configuration:
 
 ## Project Structure
 
-```
+```text
 mcp-sample/
 ├── src/
 │   └── echo_server.py    # Main server implementation
