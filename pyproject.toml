@@ -7,6 +7,14 @@ dependencies = [
     "fastmcp>=0.1.0"
 ]
 
+[project.optional-dependencies]
+windows-auth = [
+    "requests",
+    "requests-ntlm",
+    "requests-kerberos",
+    "pyspnego"
+]
+
 [project.scripts]
 mcp-echo-server = "src.echo_server:main"
 

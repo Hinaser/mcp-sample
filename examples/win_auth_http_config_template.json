@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "windows-auth-fetch": {
+      "command": "python",
+      "args": ["-m", "examples.win_auth_http"],
+      "cwd": "${PROJECT_ROOT}"
+    }
+  }
+}

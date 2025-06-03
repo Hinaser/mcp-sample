@@ -264,3 +264,4 @@ $RECYCLE.BIN/
 
 # Project specific
 # Add any project-specific ignores here
+examples/win_auth_http_config.json
